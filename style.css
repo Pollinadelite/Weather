@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(101, 144, 226);
+    min-height: 100vh;
+    align-items: center;
+    padding-top: 200px;
+    box-shadow: 30px 30px 39px 27px rgba(101, 145, 226, 0.794);
+}
+body{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Pacifico', cursive;
+    /* background-color: rgb(92, 115, 156); */
+}
+.title{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgba(23, 22, 90, 0.938);
+}
+#inputCity{
+    outline: none;
+    width: 25%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px dotted rgba(0, 80, 134, 0.938);
+    font-size: 25px;
+    font-family: inherit;
+    color: rgb(38, 10, 131);
+    margin-bottom: 100px;
+}
+#iconWrapper{
+    width: 250px;
+    height: 250px;
+}
+#iconWrapper img{
+    width: 100%;
+}
+/* .info{
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: rgba(23, 22, 90, 0.938);
+} */
+#descLable{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgba(23, 22, 90, 0.938);
+}
+#tempLable, #feelsLikeLable, #windLable{
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-bottom: 5px dotted rgba(0, 80, 134, 0.938);
+    color: rgb(36, 9, 126);
+    width: 30%;
+}
